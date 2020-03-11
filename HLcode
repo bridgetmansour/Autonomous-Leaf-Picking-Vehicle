@@ -1,0 +1,24 @@
+#take picture
+
+#***main loop***
+
+#recognize image function (internal)
+
+#if no leaf: [
+#send -->> random search (llc)
+#recieve <<-- random search completed 
+#send -->> take picture (camera)
+#recieve <<-- new picture
+#]
+
+#if possible leaf: [
+#send -->> coordinates (llc) (direction and distance)
+#recieve <<-- movement completed
+#send -->> take picture (camera)
+#recieve <<-- new picture
+#]
+
+#if image is good: [
+#(internal)
+#goto shape program
+#]
