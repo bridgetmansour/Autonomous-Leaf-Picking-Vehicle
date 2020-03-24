@@ -4,7 +4,7 @@ This autonomous navigation vehicle has the capability to detect an object and pi
 
 Hardware and Software System Block Diagrams:
 
-<img src="/sbd.png" width="400"> <img src="/swbd.png" width="450">
+<img src="/sbd.png" width="400"> <img src="/swbd.png" width="420">
 
 - The system uses computer vision to detect and identify potential leaves, returning their location. This subsystem uses statistical analysis and machine learning on images captured by a camera module attached to the raspberry pi 4, through an algorithm that considers shape, size, texture, and color in python. It provides accurate measurements such as the direction of the leaf with respect to the hand manipulator and the distance of the leaf with respect to the car.
   
