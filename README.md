@@ -1,6 +1,6 @@
 # Autonomous Leaf Picking Vehicle
 
-This autonomous navigation vehicle with a mobile arm manipulator has the capability to detect leaves and pick them up.
+This autonomous navigation vehicle has the capability to detect leaves and pick them up using a robotic arm manipulator.
 
 - The system uses computer vision to detect and identify potential leaves, returning their location. This subsystem uses statistical analysis and machine learning on images captured by a camera module attached to the raspberry pi 4, through an algorithm that considers shape, size, texture, and color in python. It provides accurate measurements such as the direction of the leaf with respect to the hand manipulator and the distance of the leaf with respect to the car.
   
