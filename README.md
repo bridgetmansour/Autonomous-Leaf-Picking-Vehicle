@@ -2,6 +2,8 @@
 
 This autonomous navigation vehicle has the capability to detect an object and pick it up using vacuum suction. This prototype use leaves as the object that our computer vision program will be tailored to, with a starting goal of being able to bypass the need to rake fallen leaves in a backyard or along a street. Aspects of this project can be later applied to various applications, such as beach or street clean up. Another application of this project can be the automation of waste disposal trucks, so that they no longer require a human driver.
 
+![Software Block Diagram]()
+
 - The system uses computer vision to detect and identify potential leaves, returning their location. This subsystem uses statistical analysis and machine learning on images captured by a camera module attached to the raspberry pi 4, through an algorithm that considers shape, size, texture, and color in python. It provides accurate measurements such as the direction of the leaf with respect to the hand manipulator and the distance of the leaf with respect to the car.
   
 - The robotic arm manipulator implements inverse kinematics to pick up leaves by using the angle provided by the CV program. Upon reaching the leaf the vacuum suction is activated to pick up the leaves and the leaves are dropped on a rendezvous point predefined to the robot. The robot is a 3 Degrees of freedom robot with inverse kinematics implemented in the base angle. The robotic arm and the computer vision is primarily processed in a Raspberry Pi 4 microcontroller.
