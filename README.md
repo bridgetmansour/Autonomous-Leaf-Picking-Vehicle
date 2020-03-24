@@ -10,4 +10,4 @@ This autonomous navigation vehicle has the capability to detect an object and pi
   
 This project’s scope for now is to pick up scattered leaves, but in the future our system can be used for various applications, such as collecting a wider range of objects and placing them in a particular spot as per user’s specification, assisting the user by carrying objects, making it easier to travel with heavy items. It can also be used for collecting samples from a planetary environment that is unsafe for humans, and for sending back low level controls through a live video feed from the camera.
   
-The project's key features are use of computer vision and image processing to detect leaves, use of robotics and inverse kinematics for controlling the arm manipulator, and use of embedded systems and power system analysis for establishing the car.
+The project's key features are use of computer vision and image processing to detect leaves, use of robotics and inverse kinematics for controlling the arm manipulator, and use of embedded systems and power system analysis.
